@@ -1,0 +1,49 @@
+﻿
+			
+				  
+ .bookmark-popup {
+    display:none;
+    position: absolute !important;
+    top: 375px;
+    padding: 20px 20px 20px 20px;
+    background-color: #f4f4f4;
+	border:0.7pt solid #666;
+    right: 15px;
+    margin: 0px 0px 0px 20px;
+    border-radius: 5px;
+	border-bottom-right-radius:0px;
+	-webkit-box-shadow: 0px 0px 6px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 6px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 6px rgba(50, 50, 50, 0.75);
+	z-index:9999;
+}
+					  
+	.bookmark-popup .close {
+        position: absolute;
+        right: 3px;
+        cursor: pointer;
+        top: 3px;
+        background:url(../images/close.svg) no-repeat !important;
+        height: 20px;
+        width: 20px;
+    }
+	
+	 .bookmark-popup p {
+        margin: 0px;
+        padding: 0px;
+		font-size:13px;
+		color:#000;
+    }
+
+.arrow-dropdown {
+    width: 22px;
+    height:24px;
+    right: 0px;
+    position: absolute;
+    bottom: -24px;
+	background:url(../images/arrow-down.svg) no-repeat !important;
+	
+}
+
+
+

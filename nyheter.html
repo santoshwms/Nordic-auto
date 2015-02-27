@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="ui-mobile">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>Nordic Auto | Nyheter</title>
+<!-- hosted jqmobile from the CDN - fastest delivery -->
+<link rel="stylesheet" href="themes/nordic.min.css" />
+<link rel="stylesheet" href="css/application.css" />
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.3.1.min.css" />
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.mobile-1.3.1.min.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+</head>
+<body>
+<div id="index" data-role="page" data-theme="a">
+  <!-- no header -->
+  <div id="header" data-role="header" data-theme="c">
+    <div class="main-logo"> <img id="home-logo" src="img/logo.png" alt="Logo" class="mb-0" /> </div>
+    <div class="header-img"><img src="img/header.png"></div>
+    <div id="home-link"> <a href="index.html" data-ajax="false"><img src="img/home-link-icon.png" alt="home"/></a> </div>
+    <div class="back-link"> <a href="javascript:void(0)" class="back-btn" data-rel="back"><img src="img/back-btn.png"/></a> </div>
+    <div class="top-menu"> <a href="javascript:void(0)" class="menu-icon"><img src="img/menu-icon.png"/></a> </div>
+  </div>
+  <!-- /header -->    
+    <div data-role="content" class="page-content ext">
+    <div id="toTop"><img src="img/icon_top.png"/></div>
+
+  <h2>Nyheter</h2>
+      
+    <p class="text-center"><a href="http://www.frogne-montage.se/visa/1/start/">http://www.frogne-montage.se/visa/1/start/</a></p>
+
+  </div>
+  <!-- /content -->
+  <div id="footer"> <a href="http://wwww.gomogroup.com" data-ajax="false" class="gomo-logo ui-link"> <img src="img/footer_GOMO.png"> </a> </div>
+  <!-- no popup -->
+  <div class="menu-popup">
+    <ul class="content-sub-menu">
+          <li data-role="collapsible" data-content-theme="c" data-iconpos="right">
+            <h3>PRODUKTER</h3>
+            <ul class="colla-content" data-role="listview" data-content-theme="c">
+               <li><a href="http://www.nordicautoel.se/visa/57/kampanjer/" data-ajax="false" >Kampanjer</a></li><li><a href="belysning.html" data-ajax="false" >Belysning</a></li>
+             
+              <li><a href="defabillarm.html" data-ajax="false">Defa Billarm</a></li>
+              <li><a href="defavarme.html" data-ajax="false">Defa Värme</a></li>
+              <li><a href="webasto.html" data-ajax="false">Webasto</a></li>
+              <li><a href="dragkrok.html" data-ajax="false">Dragkrok</a></li>
+              <li><a href="alkolas.html" data-ajax="false">Alkolås</a></li>
+          </ul>
+          </li>
+          <li data-theme="a" data-role="collapsible" data-collapsed="true" data-content-theme="c" data-iconpos="right">
+          <h3>OM OSS</h3>
+          <ul class="colla-content" data-role="listview" data-content-theme="c">
+            <li><a href="foretaget.html" data-ajax="false">Företaget</a></li>
+            <li><a href="miljopolicy.html" data-ajax="false">Miljöpolicy</a></li>
+            <li><a href="nyheter.html" data-ajax="false">Nyheter </a></li>
+            <li><a href="anvandarvillkor.html" data-ajax="false">Användarvillkor</a></li>
+            <li><a href="kvalitet.html" data-ajax="false">Kvalitet</a></li>
+            <li><a href="opartiskhet.html" data-ajax="false">Opartiskhet</a></li>
+        </ul>
+        </li>
+        <li data-theme="a" data-role="collapsible" data-collapsed="true" data-content-theme="c" data-iconpos="right">
+        <h3>HJÄLP</h3>
+        <ul class="colla-content" data-role="listview" data-content-theme="c">
+          <li><a href="bokning.html" data-ajax="false">Bokning</a></li>
+          <li><a href="finansiering.html" data-ajax="false">Finansiering</a></li>
+          <li><a href="ovrigafragor.html" data-ajax="false">Övriga frågor</a></li>
+          <li><a href="taxi.html" data-ajax="false">Taxi</a></li>
+        </ul>
+      </li>
+      <li data-theme="a"> <a href="kontakt.html" data-transition="fade" data-ajax="false">KONTAKT</a></li>
+      <li data-theme="a"> <a href="http://nordicautoel.se/visa/14/logga_in/" data-transition="fade" data-ajax="false">LOGGA IN</a></li>
+        </ul>
+    <a href="javascript:void(0)" data-role="button" data-icon="delete" class="text-left">Stäng</a> 
+  </div>
+  <script src="js/application.js" type="text/javascript"></script>
+</div>
+<!-- /page -->
+<script type="text/javascript">
+  $(function() {
+    var windowHeight = $(window).height();
+    var footerHeight = $('#footer').height();
+    var headerHeight = $('.ui-header').height();
+    var contentHeight = $('.ui-content').height();
+    var minHeight = windowHeight - (footerHeight+headerHeight+36);
+
+    if(contentHeight < minHeight){
+      $('.ui-content').height(minHeight);
+    }
+  });
+</script>
+<script>
+ 
+  
+ 
+  })
+
+ 
+
+
+</script>
+
+<script>
+ 
+  
+ 
+  })
+
+ 
+
+
+</script></body>
+</html>
